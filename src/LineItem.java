@@ -15,7 +15,7 @@ public class LineItem {
         return quantity;
     }
 
-    public double getTotal() {
+    public double getLineTotal() {
         return product.getItemPrice()*quantity;
     }
 }
